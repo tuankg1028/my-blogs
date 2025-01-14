@@ -94,7 +94,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
       <meta name="site-verification" content="6200d936e4550ae7bcc2a418bf4beeb8" />
-      <script src="https://richinfo.co/richpartners/pops/js/richads-pu-ob.js" data-pubid="912347" data-siteid="356083" async data-cfasync="false"></script>
+      <script
+        src="https://richinfo.co/richpartners/pops/js/richads-pu-ob.js"
+        data-pubid="912347"
+        data-siteid="356083"
+        async
+        data-cfasync="false"
+      />
       <link rel="alternate" type="application/rss+xml" href={`${basePath}/feed.xml`} />
       <body className="bg-white pl-[calc(100vw-100%)] text-black antialiased dark:bg-gray-950 dark:text-white">
         <ThemeProviders>
