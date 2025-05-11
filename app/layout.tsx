@@ -93,7 +93,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <meta name="msapplication-TileColor" content="#000000" />
       <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fff" />
       <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000" />
-      <meta name="site-verification" content="6200d936e4550ae7bcc2a418bf4beeb8" />
+      <meta
+        name="0c855de2fc09c502a5dc46d7efcde648bc477cd0"
+        content="0c855de2fc09c502a5dc46d7efcde648bc477cd0"
+      />
       <script
         src="https://richinfo.co/richpartners/pops/js/richads-pu-ob.js"
         data-pubid="912347"
